@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Страница — 1" id="HJQR2844qvjMUYZCEU2l">
+    <mxGraphModel dx="2703" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GwsTD60k6-w9facampwQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GwsTD60k6-w9facampwQ-1" target="GwsTD60k6-w9facampwQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-1" value="Git репозиторий" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GwsTD60k6-w9facampwQ-2" target="GwsTD60k6-w9facampwQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-2" value="CI CD pipeline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GwsTD60k6-w9facampwQ-3" target="GwsTD60k6-w9facampwQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-3" value="Сборка docker-образа" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GwsTD60k6-w9facampwQ-4" target="GwsTD60k6-w9facampwQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-4" value="Запуск тестов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GwsTD60k6-w9facampwQ-5" target="GwsTD60k6-w9facampwQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-5" value="Terraform Plan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GwsTD60k6-w9facampwQ-6" target="GwsTD60k6-w9facampwQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-6" value="Terraform Apply" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GwsTD60k6-w9facampwQ-9" target="GwsTD60k6-w9facampwQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-9" value="Управляется Terraform" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="183" y="670" width="753" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-13" value="Диски" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-14" value="Сети, подсети" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-16" value="Виртуальные машины для аналитики" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="499.5" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-17" value="Apache Kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-18" value="Storage Bucket (S3)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-19" value="Виртуальные машины для домена &quot;Клиника&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="793" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-20" value="Виртуальные машины для домена &quot;Финансы&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="646" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-21" value="Виртуальные машины для домена &quot;ИИ-сервисы&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-22" value="Виртуальные машины для домена &quot;Маркетинг и партнёры" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-24" value="Разворачиваются вручную" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="179" y="1110" width="470" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-25" value="Datahub" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-26" value="Dremio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-27" value="Nessie" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="479" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-28" value="Airflow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-29" value="Spark" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-30" value="PowerBI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="479" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GwsTD60k6-w9facampwQ-34" target="GwsTD60k6-w9facampwQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-36" value="push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GwsTD60k6-w9facampwQ-35">
+          <mxGeometry x="-0.2432" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GwsTD60k6-w9facampwQ-34" value="" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="355" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
